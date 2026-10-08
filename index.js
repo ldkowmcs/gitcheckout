@@ -480,7 +480,7 @@ axios
   res.type("text/plain").send(script.trim());
 });
 
-// --- Server Listener ---
+// --- Server Listener ----
 app.listen(port, () => {
   console.log(`✅ Server listening on port ${port}`);
 });
